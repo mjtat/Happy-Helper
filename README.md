@@ -1,4 +1,4 @@
-## Please view the Jupyter Notebooks to view my model selection code.
+## Please view the Jupyter Notebooks to view code associated with Happy Helper.
 
 **The Jupyter Notebooks contain the following.**
 
