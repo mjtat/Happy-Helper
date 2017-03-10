@@ -10,10 +10,7 @@ import os
 # Set working directory.
 os.chdir('/home/michelle/Documents/MVP/clean code')
 
-import requests
-import operator
 import string
-import re
 import nltk
 import numpy as np
 import praw
@@ -127,8 +124,8 @@ if __name__ == "__main__":
     reddit = reddit_api('FaA1JN_8OF_5gA',
                          '6IrDUlhO7_XQrh6kMuNgitS_UxI',
                          'Mental Health Script by /u/tatinthehat',
-                         'tatinthehat',
-                         'GundamF!@120')
+                         'username',
+                         'password')
     
     # Set the custom stop words, use function imported from text_processing.py
     stop_words = custom_stop()
